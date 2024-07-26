@@ -18,6 +18,10 @@
     padding: 0.5rem 2rem ;
     font-size: 0.9rem;
   }
+  .project-title{
+    font-family: fantasy;
+    color: #fe424d;
+  }
 </style>
 
 <nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
@@ -28,7 +32,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="/listings">Deluxe Destinations</a>
+          <a class="nav-link project-title" href="/listings">Dreamy Destinations</a>
         </div>
         <div class="navbar-nav ms-auto">
           <form class="d-flex" role="search">
@@ -37,7 +41,7 @@
           </form>
         </div>
         <div class="navbar-nav ms-auto">
-          <a class="nav-link" href="/listings/new">Airbnb your home</a>
+          <a class="nav-link" href="/listings/new">Add your Rentals</a>
           <% if(!currUser) { %>
             <a class="nav-link "  href="/signup"><b>Signup</b></a>
             <a class="nav-link" href="/login"><b>Login</b></a>
